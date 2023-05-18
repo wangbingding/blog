@@ -247,4 +247,6 @@ profile:
       date: 2016
   # My Personal Projects
   projects:
+    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
  
