@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: 王丙丁的博客 # 页面title
+  title: Hexo # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -171,7 +171,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: true  # 不蒜子统计
+    enable: false  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
@@ -180,8 +180,8 @@ pv:
 # wordcount
 postCount:
   enable: false
-  wordcount: true  # 文章字数统计
-  min2read: true  # 阅读时长预计 
+  wordcount: false  # 文章字数统计
+  min2read: false  # 阅读时长预计 
 
 # Plugins
 plugins:
@@ -202,20 +202,20 @@ profile:
   articleSelfBlock: false # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
+  author: 王丙丁
   author_title: Web Developer & Designer
   author_description: 个人简介。
   location: 郑州, 中国
-  follow: https://github.com/
+  follow: https://github.com
   # Social Links
   social:
     links:
-      github: https://github.com/
-      weibo: http://weibo.com/
-      twitter: https://twitter.com/
+      github: https://github.com
+      weibo: http://weibo.com
+      twitter: https://twitter.com
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/
+      #behance: https://www.behance.net/cofess
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
@@ -229,10 +229,11 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/
+    Github: https://github.com
     Blog: http://blog.cofess.com
-    微博: http://weibo.com/
-    花瓣: http://huaban.com/
+    微博: http://weibo.com
+    #花瓣: http://huaban.com
+    #Behance: https://www.behance.net
   # My Personal Labels
   labels:
     - 前端
@@ -247,6 +248,5 @@ profile:
       date: 2016
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
- 
+    #cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    #cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
